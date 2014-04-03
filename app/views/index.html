@@ -1,0 +1,32 @@
+{{>header}}
+
+
+You are user: {{ user._id }}
+
+<br>
+
+  Your details are: {{ user }}
+
+
+  <div id="post-display">
+
+
+  </div>
+
+<div id="container">
+    foo
+</div>
+
+<br>
+
+<a href="/logout" class="btn btn-default btn-sm">Logout</a>
+
+<form>
+  <label>Submit</label>
+  <input id="title-out" type="text" placeholder="title"><br>
+  <textarea id="message-out"></textarea>
+  <button id="submit-post" type="button" value="send-post">Post</button>
+</form>
+<script src='public/app.js'></script>
+
+{{>footer}}
