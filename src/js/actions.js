@@ -60,16 +60,6 @@ function UI () {
 
 App.ui = new UI();
 
-
-// var data = {
-
-//   // author    : { type: Schema.ObjectId },
-//   // body      : {  },
-//   // comments  : [ Comment ],
-//   // tempname  : { type: String },
-//   // tempnames : [{ type: String }]
-// };
-
 submit.disabled = true;
 
 App.locator.getLoc(function (loc) {

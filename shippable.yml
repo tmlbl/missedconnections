@@ -5,10 +5,7 @@ language: node_js
 node_js:
   - 0.10.25
 
-# npm install runs by default but shown here for illustrative purposes
-before_install:
- - grunt build
-
 # Running npm test to run your test cases
 script:
+ - grunt build
  - npm test
