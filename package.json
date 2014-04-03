@@ -42,6 +42,9 @@
     "foreman": "^0.2.1",
     "grunt-mongoimport": "^0.1.3",
     "mocha": "^1.18.2",
-    "grunt-foreman": "0.0.4"
+    "grunt-foreman": "0.0.4",
+    "supertest": "~0.10.0",
+    "should": "~3.2.0",
+    "assert": "~1.1.1"
   }
 }

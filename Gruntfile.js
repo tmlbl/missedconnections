@@ -123,7 +123,6 @@ module.exports = function (grunt) {
   });
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-env');
-  grunt.loadNpmTasks('grunt-foreman');
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-casper');
   grunt.loadNpmTasks('grunt-contrib-concat');
