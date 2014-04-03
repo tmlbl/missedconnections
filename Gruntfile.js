@@ -80,7 +80,7 @@ module.exports = function (grunt) {
           test: true
         },
         files: {
-          'test/casper/results.xml' : ['test/casper/*.js']
+          'shippable/testresults/results.xml' : ['test/casper/*.js']
         }
       }
     },
