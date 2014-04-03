@@ -18,4 +18,3 @@ node_modules
 test/casper/results.xml
 .idea/
 public/app.js
-config.js
